@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - print the string in the function
  *
  *Description: use main function
- * return: 0 (successful)
+ *this program prints the given string 
+ *Return: 0 (successful)
  */
 int main(void)
 {
