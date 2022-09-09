@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prin the string
+ * main - print the string in the function
  *
  *Description: use main function
  * return: 0 (successful)
