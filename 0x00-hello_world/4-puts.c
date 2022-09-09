@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-/**
- * main - print the string in the function
- *
+/*main - print the string in the function
  *Description: use main function
  *this program prints the given string 
  *Return: 0 (successful)
