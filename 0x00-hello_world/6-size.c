@@ -3,7 +3,7 @@
  * Description: main - prints the size of different types
  * Return: Always  0 (success)
  */
-it main(void)
+int main(void)
 {
 char a;
 int b;
