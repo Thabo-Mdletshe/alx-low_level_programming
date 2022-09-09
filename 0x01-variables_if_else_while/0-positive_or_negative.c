@@ -2,11 +2,9 @@
  * File Name: 0-positive_or_negative.c
  * Auth: Thabo Mdletshe
  */
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - decideds if number is positive, negative, or zero.
  * Description
