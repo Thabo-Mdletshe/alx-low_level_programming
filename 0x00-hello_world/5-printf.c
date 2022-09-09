@@ -6,5 +6,5 @@
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a pieace of art, \n");
-	reurtn (0);
+	return (0);
 }
