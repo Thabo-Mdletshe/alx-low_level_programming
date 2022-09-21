@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _strcat: function strcat
+ * _strcat - concades two strings
  * @dest: first param
  * @src: second param
- * Retuurn: a string
+ * Return: a string
  */
 char *_strcat(char *dest, char *src);
 {
@@ -20,4 +20,5 @@ char *_strcat(char *dest, char *src);
 		len += 1;
 	}
 	dest[len] = '\0';
-	retuen (dest);
+	return (dest);
+}
