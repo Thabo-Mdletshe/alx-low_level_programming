@@ -1,10 +1,6 @@
-/*
- * File name: 2-print_alphabet.c
- * Auth: Thabo Mdletshe
- */
-
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - print lowercase alphabets
  *
@@ -13,11 +9,11 @@
 int main(void)
 {
 	char letter;
-	
+
 	for (letter = 'a'; letter <= 'z'; letter++)
+
 		putchar(letter);
+		putchar('\n');
 
-	putchar('\n');
-
-	return (0)
+	return (0);
 }
