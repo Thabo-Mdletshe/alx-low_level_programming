@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _strcat - concades two strings
+ * _strcat - concades the string pointed to by @src to
+ * the end of the string pointed to @dest
  * @dest: String that will append
  * @src: string to be concatenated upon
  *
