@@ -6,14 +6,13 @@ include "main.h"
  */
 void print_alphabet_x10(void)
 {
-	char c, i;
+int counter = 0;
+int letter;
+while (counter++ <= 9)
+{
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
 
-	for (i = 0; i <= 9; i++)
-	{
-		for  (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
-	}
+_putchar(10);
+}
 }
