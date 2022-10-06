@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 			int b;
 			char *str;
 
-			str = argv[i]
+			str = argv[i];
 			for (b = 0; str[b] != '\0'; b++)
 			{
 				if (str[b] < 48 || str[b] > 57)
