@@ -36,13 +36,13 @@ char *str_concat(char *s1, char *s2)
 		s1 = "";
 
 	if (s2 == NULL)
-		S2 = "";
+		s2 = "";
 
 	/*Count total size*/
 	size = (_strlen(s1) + _strlen(s2) + 1);
 
 	/*Malloc*/
-	dest = (char *) malloc(size * sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{

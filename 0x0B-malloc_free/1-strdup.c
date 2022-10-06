@@ -62,6 +62,6 @@ if (dst == 0)
 {
 return (NULL);
 }
-_strcpy(dst, str)
-return (dst)
+_strcpy(dst, str);
+return (dst);
 }
